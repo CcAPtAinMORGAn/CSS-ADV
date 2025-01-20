@@ -1,0 +1,83 @@
+
+/* 
+l   = link = default state
+v   = visited = click and visit the link
+h   = hover = rollovr state
+a   = active = click and hold the click  
+*/
+
+body{
+    background-color: rgb(97, 90, 90);
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+img:hover {
+    border-radius: 40%; /* Adds rounded corners when hovered */
+}
+
+img:active {
+    border-radius: 100%; /* Makes the image circular when clicked */
+}
+
+
+
+/* link selector */
+
+/* when we hover on h1 background color becomes red and the text color transitions from black to yellowgreen */
+
+h1:hover {
+    background-color: rgb(192, 129, 129);
+    color: rgba(66, 66, 66, 0.781);
+    transition: all linear 1s;
+    border: 2px solid black;
+    font-size: 40px;
+    font-family: cursive;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 200px;
+}
+
+/* When we remove cursor from the heading we want the background color to fade out slowly so we give transition to h1 tag */
+
+h1{
+    transition: all linear 1s;
+    width: 200px
+}
+
+/* ------------------------------------------------------------------ */
+
+/* anchor tag animation */
+
+a{
+    text-decoration: none;
+    color: black    ;
+    padding: 15px;
+    /* border: 2px solid black; */
+}
+
+/* 
+a:visited {
+    
+} */
+
+a:hover {
+    background-color: grey; 
+    font-size: 20px;
+    transition: all linear 0.5s;
+}
+
+
+/* When we click on anchor tag we want the tag to become smaller so we reduce padding and give transition to smoothe it out*/
+
+a:active {
+    /* font-size: 12px; */
+    transition: all linear 0.5ms;
+    padding: 10px;
+}
+

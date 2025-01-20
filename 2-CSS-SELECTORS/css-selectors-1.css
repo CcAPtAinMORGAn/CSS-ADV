@@ -1,0 +1,63 @@
+
+body{
+    background-color: rgb(97, 90, 90);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/**{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* 1. tag / element selector : target any tag */
+
+ h1 {
+    text-decoration: underline;
+    text-transform: lowercase;
+/*    text-transform: uppercase;*/
+/*    color: #000000;*/
+    color: grey ;
+} 
+
+/* 2. class selector = target customized 
+user defined class which is generic i.e similar 
+looking items */
+
+.blueHeading {
+/*    color: #0958d6;*/
+    color: blue;
+}
+
+
+/* 3. id selector = unique identification, very specific, different looking  */
+
+
+
+
+#mainImage {
+    border-radius: 20px;
+    width: 450px;
+    height: 450px;
+    border: 5px double rgb(12, 13, 110);
+}
+
+/*Here id will be given first priority*/
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/* 4. group selector - target group of tags/ids/classes */
+
+.blueHeading,h4,li {
+    letter-spacing: 10px;
+}
+
+
+/* 5. parent child relational conditional selector  */
+
+/*Here div .blueHeading means find a div which has 
+a element with class blueHeading now even though there are two h1 tags with class blueHeading the style will only apply when a div has an element with class blueHeading */
+
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ICE-CONCEPT</title>
+
+         <!-- external 3rd priority after that 2nd priority is internal and 1st priority is inline -->
+         <link rel="stylesheet" href="css-rules-priority.css">
+
+        <!-- internal is 2nd priority just after 1st inline -->
+        <!-- <style> 
+            h1 {
+                color: #00ff00;
+            }
+        </style> -->
+
+       <!-- nearest is highest priority inline then internal/embedded then external outside css -->
+
+    </head>
+    
+    <body>
+
+        <b>Bold</b>
+        <i>italics</i>
+        <u>underline</u> <br><br>
+
+        <strong>Bold</strong>
+        <em>italics</em>
+        <ins>underline</ins>
+
+        <span> dinanath</span>
+
+        <hr>
+
+        
+        <div>
+            <!-- inline is heighest/top priority used for quick solution in emergency situation in product company but is the wrong approach professionally   -->
+            <!-- <h1 style="color: #ff0000;">Heading 1</h1> -->
+             
+            
+            <h1 class="heading1">Heading 1 with heading1 class</h1>
+
+            <h1 class="heading1" id="heading1">Heading 1 with heading1 class and heading1 id</h1>
+            
+            <h2 class="heading1">Heading 2 with heading1 as a class</h2>
+
+            <div class="divcss"></div>
+
+            <span class="divcss"> span tag which has class divcss</span>
+
+            <div>
+                <h2 class="heading2" id="heading2">Heading 2 with heading2 class and heading2 id</h2>    
+            </div>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sunt veritatis minima ipsa mollitia minus tenetur. Ipsa, dolores praesentium perferendis ea harum, et velit vel ab, molestias laborum commodi. Reiciendis!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sunt veritatis minima ipsa mollitia minus tenetur. Ipsa, dolores praesentium perferendis ea harum, et velit vel ab, molestias laborum commodi. Reiciendis!</p>
+        </div>
+
+        <div>
+            <h1>Heading 1 with no class</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sunt veritatis minima ipsa mollitia minus tenetur. Ipsa, dolores praesentium perferendis ea harum, et velit vel ab, molestias laborum commodi. Reiciendis!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sunt veritatis minima ipsa mollitia minus tenetur. Ipsa, dolores praesentium perferendis ea harum, et velit vel ab, molestias laborum commodi. Reiciendis!</p>
+        </div>
+
+        <div>
+            <h1>Heading 1 with no class</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sunt veritatis minima ipsa mollitia minus tenetur. Ipsa, dolores praesentium perferendis ea harum, et velit vel ab, molestias laborum commodi. Reiciendis!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque sunt veritatis minima ipsa mollitia minus tenetur. Ipsa, dolores praesentium perferendis ea harum, et velit vel ab, molestias laborum commodi. Reiciendis!</p>
+        </div>
+
+
+
+        <h3 class="ICE-CONCEPT" style="color: gold;border: 2px solid gold;">ICE - CONCEPT</h3>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>CLASS</th>
+                <th>ELEMENT</th>
+                <th>TOTAL PRIORITY</th>
+            </tr>
+
+            <tr>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+                <td>11</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>0</td>
+                <td>1</td>
+                <td>101</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>111</td>
+            </tr>
+        </table>
+
+    </body>
+</html>

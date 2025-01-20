@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(70, 67, 67);
+}
+
+/* padding - inside the box - air inside baloon
+and 
+margin - gap between two box - space between two baloons*/
+
+/* padding works clockwise  */
+
+.father {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: top-bottom   right-left */
+    padding: 0px 50px;
+
+    margin: 10px;
+    border: 2px solid black;
+}
+
+
+/* ------------------------------------------------- */
+
+/* padding: top-bottom   right-left */
+
+/* padding: 0px 50px; */
+    
+/* ------------------------------------------------- */
+
+/* padding: top     right     bottom      left */
+
+/* padding: 20px 50px 60px 70px; */
+
+/* ------------------------------------------------- */
+
+/* padding: top     right     bottom      left */
+
+/* Here left padding will automatically be equal to right padding as it is a couple */
+
+/* padding: 20px 50px 60px ; */
+
+/* ------------------------------------------------- */
+

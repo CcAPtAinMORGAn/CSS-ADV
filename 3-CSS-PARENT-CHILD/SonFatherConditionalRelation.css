@@ -1,0 +1,40 @@
+
+body{
+    background-color: rgb(97, 90, 90);
+}
+
+
+div p {
+    color: red;
+}
+
+/* css3 new selector for son father conditional relation */
+
+/* Here div is the parent and p is the child div > p means wherever div has as an immediate
+child p give color grey but if we write div p it means even if p is not an immediate child give color red */
+
+div > p {
+    color: yellowgreen;
+}
+
+
+div > h1 {
+    font-size: 80px;
+    color: goldenrod;
+} 
+    
+ 
+/* -------------------------------------------------------- */
+
+
+/* p tag which appears immediately after a div tag will be given color red */
+div + p {
+    color: red;
+}
+
+div .goldHeading {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    background-color: lightcoral;
+}

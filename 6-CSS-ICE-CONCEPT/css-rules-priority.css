@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(70, 67, 67);
+}
+
+
+/* rule of specificity
+    #id 
+    .class
+    tag
+*/
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+/* very generic apply to all h1 tags */
+
+/* h1 {
+    color: #0000ff;
+} */
+
+/* generic apply to all heading1 class */
+
+/* Here id has more weightage than class */
+
+/* .heading1 {
+    color: #0000ff;
+}
+
+#heading1 {
+    color: #861931;
+} */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* target h1 who have heading1 class */
+
+/* h1.heading1 {
+    color: #ff0000;
+} */
+
+
+/* Target div which has class divcss self relation */
+/* div.divcss{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+} */
+
+/* Target a div which has some another tag in it and the tag has class heading2 parent child relation */
+
+/* div .heading2{
+    color: green;
+} */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* cascading rule - latest code and nearest code */
+/* h1 {
+    color: #0000ff;
+}
+
+h1 {
+    color: #ff0000;
+} */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Find a div with  class father self relation*/
+
+/* div.father {
+    background-color: red;
+} */
+
+/* Find a div which has another tag in it named child and give the style to the child------father child relation*/
+
+/* div .child {
+    color: blue;
+} */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+h1 {
+    color: #ff0000;
+}
+
+h1.heading1 {
+    color: #00ff00;
+}
+
+.heading1 {
+    color: #0000ff;
+}
+
+
+/* id has more weightage than class and direct tag (suppose h1{}) combined */
+#heading1 {
+    color: gold;
+}
+
+
+/* h1 with id has more weightage than only id  */
+ h1#heading1 {
+    color: pink
+}
+
+/* h1 with both id and class has the most weightage */
+h1.heading1#heading1 {
+    color: white
+}
+
+
+/* This will not take any effect as it doesn't have the most weightage */
+
+#heading1 {
+    color: gold;
+    
+} 
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+table,tr,th,td{
+    border: 1px solid gold;
+    color: red;
+}
+
+
+
+

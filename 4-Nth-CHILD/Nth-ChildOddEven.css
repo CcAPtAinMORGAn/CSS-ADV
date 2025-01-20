@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(100, 97, 97);
+}
+
+
+/* odd even nth child selector */
+
+ul li:nth-child(even) {
+    background-color: rgb(248, 255, 194);
+}
+
+
+ul li:nth-child(odd) {
+    background-color: rgb(150, 204, 255);
+}
+
+/* ----------------------------------------------------------- */
+
+ol li:nth-child(even) {
+    background-color: rgb(90, 38, 150);
+}
+
+
+ol li:nth-child(odd) {
+    background-color: rgb(189, 76, 174);
+}
+
+/* ----------------------------------------------------------- */
+
+
+li:nth-child(even) {
+    font-family: fantasy;
+ }
+
+
+li:nth-child(odd) {
+   font-family: cursive;
+}

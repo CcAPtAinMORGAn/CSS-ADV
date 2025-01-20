@@ -1,0 +1,73 @@
+CSS
+====
+
+CASCADING STYLE SHEET
+
+ONE BELOW OTHER = STACK = LAYER OF RULES
+
+STYE = PRESENTATION, THEME, COLORS 
+
+SHEET = COLLECTION 
+
+
+WHY CSS?
+====
+
+PRESENTATION, THEME, COLORS  == LIPSTICK LALI AND MAKEUP
+
+MORE PROPERTIES AND WIDE RANGE OF ATTRIBUTES AS COMPARED TO HTML5
+
+
+TYPES
+INLINE  = FOR SINGLE LINE ONLY = STYLE ATTRIBUTE
+======    
+    SYNTAX: <tag style="property:value;">text /<h1>
+    EXAPLE : <H1 style="color:#ff00ff;">text /<H1>
+
+
+INTERNAL / EMBEDDED = IN THE HEAD TAG, INSIDE STYLE TAG
+========================
+    SYNTAX: 
+        selector/tag {
+            property:value;
+            key:value;
+        }
+
+    EXAMPLE:  
+        h1 {
+            color:#ff00ff;
+        }
+
+EXTERNAL / OUTSIDE / SEPERATE .CSS FILE 
+========================
+= PROFESSIONAL APPROCH, SEPRATE FILE WHICH DO NOT MIX N MATCH , USE LINK TAG
+     SYNTAX: 
+        selector/tag {
+            property:value;
+            key:value;
+        }
+
+    EXAMPLE:  
+        h1 {
+            color:#ff00ff;
+        }
+
+DESIGN PRINCIPLE TO APPLY IN LIFE/SW DEV:
+========================
+* KISS = KEEP IT SIMPLE STUPID! PRINCIPLE
+* DRY = DO NOT REPEATE YOURSELF
+* SOC = SEPERATION OF CONCERN = .HTML .CSS SEPERATE
+
+
+CSS APPROACH
+=============
+TOP TO BOTTOM
+LEFT TO RIGHT
+FIRST CHILD/OBJECT FIRST
+
+DIFFERENT CSS SELECTOR:
+========================
+
+RULES/INSTRUCTIONS/PRESENTATION STYLES ==== HEART AND BRAIN OF CSS
+
+
