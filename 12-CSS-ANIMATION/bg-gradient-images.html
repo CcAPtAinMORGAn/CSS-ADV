@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bg image and gradients</title>
+        <style>
+            .bg1 {
+                width: 100px;
+                height: 100px;
+                border: 1px solid green;
+                
+                /* vendor specific properties, fallback support - cross browser support */
+                -webkit-background-image: linear-gradient(red,blue);
+                -moz-background-image: linear-gradient(red,blue);
+                -ms-background-image: lsinear-gradient(red,blue);
+                -o-background-image: linear-gradient(red,blue);
+                
+                /* main property - latest browser*/
+                background-image: linear-gradient(red,blue);
+                background-image: linear-gradient(45deg, red,blue);
+                /* background-image: radial-gradient(red,blue,yellow,); */
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="bg1">
+
+        </div>
+        
+    </body>
+</html>

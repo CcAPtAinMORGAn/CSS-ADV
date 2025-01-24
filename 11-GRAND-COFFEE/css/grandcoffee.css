@@ -1,0 +1,152 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    background-color: rgba(70, 71, 73, 0.973);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 100%;
+   
+    /* border: 2px solid red; */
+}
+
+.logoNavBarContainer {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    color: #fff;
+    /* cursor: pointer; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+    /* border: 2px solid blue; */
+
+    position:sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.logoContainer {
+    /* border: 1px solid red; */
+}
+
+.navItemContainer, .navItem {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+.navBarContainer {
+    /* background: red; */
+    /* height: 50%; */
+    width: 30%;
+}
+
+.navItemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+
+}
+
+.navItem {
+    cursor: pointer;
+}
+
+.navItem:hover {
+    color: orange;
+}
+
+
+/*  */
+
+.carouselContainer {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/coffeebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    border: 2px solid red;
+    background-attachment: scroll;
+    margin-bottom: 100px;
+}
+
+.carouselTextContainer {
+    width: 50%;
+    height: 300px;
+
+    border: 2px solid blue;
+}
+
+.mainHeading1 {
+    font-size: 60px;
+}
+
+.mainHeading2 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.detailsText1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0px;
+   
+}
+
+.learnMoreButton {
+    width: 125px;
+    background: black;
+    height: 40px;
+    color: #fff;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.carouselButtonContainer {
+
+}
+
+.dummyContainer {
+    height: 1000px;
+}
+
+.research {
+    width: 100%;
+    height: 100px;
+    border: 5px solid black;
+   
+}
+
+.monica {
+    background: white;
+    position: relative;
+    width: 80%;
+    top: -10px;
+    left: 10%;
+    padding: 0px 10px;
+}
+
+.monicaText {
+    width: 85%;
+    background: white;
+    position: relative;
+    top: 5px;
+    height: 80px;
+    left: 5%;
+}

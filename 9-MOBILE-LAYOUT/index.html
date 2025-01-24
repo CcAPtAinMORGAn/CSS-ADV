@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mobile apps</title>
+        <link rel="stylesheet" href="assets/styles/styles.css">
+    </head>
+
+    <body>
+        <!-- tag <> / class . / id # / condition parent child space / link:psudeo L:V:H:A: /  
+        group selctor , +  / :nth child odd even   
+        -->
+
+        <div class="mainContainer" id="mainContainer">
+            <!-- emmet/zen coding - shortcut way to write html5/css3 -->
+            <!-- div.row     -->
+            <!-- div#row1 -->
+            <!-- div.row$   $ is used to assign serial number -->
+            <!-- div*5  * is used generate n number of elements -->
+
+            <!-- div.row#row$*5 -->
+
+            <div class="row row1" id="row1">
+                <div class="row1Child1">16:15</div>
+
+                <nav class="row1Child2">
+                    <li class="icon" id="icon1">W</li>
+                    <li class="icon" id="icon2">T</li>
+                    <li class="icon" id="icon3">S</li>
+                    <li class="icon" id="icon4">B</li>
+                </nav>
+            </div>
+
+            <div class="row row2" id="row2">
+                <!-- <div class="row2Child"> -->
+                    <div class="time">16:15</div>
+                    <div class="daytime">Monday, 13 Jan</div>
+                    <div class="row2IconHolder">
+                        <li class="icon" id="icon1">W</li>
+                        <li class="icon" id="icon2">T</li>
+                        <li class="icon" id="icon3">S</li>
+                        <li class="icon" id="icon4">B</li>
+                    </div>
+                <!-- </div> -->
+            </div>
+
+
+            <div class="row row3" id="row3">
+                <!--
+                <li class="round" id="round1">
+                     <img src="assets/images/icon1.png" alt="icon1" title="icon1" />
+                    <img src="assets/images/icon1.png" />
+                </li> 
+                -->
+
+                <li class="round" id="round1" onclick="showMenu1(); showMenuCommon();">1
+                    <!-- <img src="assets/images/icon1.png" alt=""> -->
+                </li>
+
+                <li class="round" id="round2" onclick="showMenu2(); showMenuCommon();">2
+                    <!-- <img src="assets/images/icon2.png" alt=""> -->
+                </li>
+
+                <li class="round" id="round3" onclick="showMenu3(); showMenuCommon();">3
+                    <!-- <img src="assets/images/icon3.png" alt=""> -->
+                </li>
+
+                <li class="round" id="round4" onclick="showMenu4(); showMenuCommon();">4
+                    <img src="assets/images/icon4.png" alt="">
+                </li>
+
+                <!-- <li class="round" id="round5" onclick="showMenu();">5
+                    <img src="assets/images/icon2.png" alt="">
+                </li>
+                 -->
+
+                 <li class="round" id="round5" onclick="showMenu5(); showMenuCommon();">5
+                    <img src="assets/images/icon2.png" alt="">
+                </li>
+                 
+            </div>
+
+
+            <!-- <div class="clickedMenu" id="clickedMenu">
+                5 is clicked
+            </div> -->
+
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+
+            <div class="ClickedMenuParent" id="ClickedMenuParent1" onclick="showMenu1(); showMenuCommon();"> 
+                <div class="clickedMenu" onclick="event.stopPropagation();">
+                    1 is clicked
+                </div>
+            </div> 
+
+            <div class="ClickedMenuParent" id="ClickedMenuParent2" onclick="showMenu2(); showMenuCommon();"> 
+                <div class="clickedMenu" onclick="event.stopPropagation();">
+                    2 is clicked
+                </div>
+            </div> 
+
+            <div class="ClickedMenuParent" id="ClickedMenuParent3" onclick="showMenu3(); showMenuCommon();"> 
+                <div class="clickedMenu" onclick="event.stopPropagation();">
+                    3 is clicked
+                </div>
+            </div> 
+
+            <div class="ClickedMenuParent" id="ClickedMenuParent4" onclick="showMenu4(); showMenuCommon();"> 
+                <div class="clickedMenu" onclick="event.stopPropagation();">
+                    4 is clicked
+                </div>
+            </div> 
+
+            <div class="ClickedMenuParent" id="ClickedMenuParent5" onclick="showMenu5(); showMenuCommon();"> 
+                <div class="clickedMenu" id="clickedMenu" onclick="event.stopPropagation();">
+                    5 is clicked
+                </div>
+            </div> 
+
+            
+            <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+            <div class="row row5" id="row5">
+                <!--
+                <li class="round" id="round1">
+                     <img src="assets/images/icon1.png" alt="icon1" title="icon1" />
+                    <img src="assets/images/icon1.png" />
+                </li> 
+                -->
+
+                <li class="round" id="round1">1
+                    <!-- <img src="assets/images/icon1.png" alt=""> -->
+                </li>
+
+                <li class="round" id="round2">2
+                    <!-- <img src="assets/images/icon2.png" alt=""> -->
+                </li>
+
+                <li class="round" id="round3">3
+                    <!-- <img src="assets/images/icon3.png" alt=""> -->
+                </li>
+
+                <li class="round" id="round4">4
+                    <!-- <img src="assets/images/icon4.png" alt=""> -->
+                </li>
+
+                <li class="round" id="round5">5
+                    <!-- <img src="assets/images/icon2.png" alt=""> -->
+                </li>
+            
+            </div>
+
+
+        </div>
+
+        <script src="assets/scripts/1script.js"></script>
+        <script src="assets/scripts/2script.js"></script>
+        <script src="assets/scripts/3script.js"></script>
+        <script src="assets/scripts/4script.js"></script>
+        <script src="assets/scripts/5script.js"></script>
+        <script src="assets/scripts/CommonScript.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>image sprite</title>
+        <style>
+            .link {
+                width: 33px;
+                height: 33px;
+                border: 1px solid red;
+                display: inline-block;
+                background-image: url(images/_sprite.png);
+            }
+
+            #link1 {
+            }
+
+            #link1:hover {
+                background-position: 0px 33px;
+
+            }
+
+            #link2 {
+                background-position: -33px 0px;
+                /* background-position: 132px 0px; */
+            }
+
+            #link2:hover {
+                background-position: -33px 33px;
+
+            }
+
+            #link3 {
+                background-position: -66px 0px;
+                /* background-position: 99px 0px; */
+            }
+
+            
+            #link3:hover {
+                background-position: -66px 33px;
+                /* background-position: 99px 0px; */
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <a class="link" id="link1"></a>
+        <a class="link" id="link2"></a>
+        <a class="link" id="link3"></a>
+        <a class="link" id="link4"></a>
+        <a class="link" id="link5"></a>
+        
+    </body>
+</html>

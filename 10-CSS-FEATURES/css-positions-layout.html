@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            * {
+                box-sizing: border-box;
+            }
+            .container {
+                width: 80%;
+                background-color: pink;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            .nav {
+                width: 78%;
+                height: 50px;
+                background-color: orange;
+                position: fixed;
+                z-index: 1;
+
+                /* position: sticky;
+                top: 0; */
+
+                z-index: 1;
+                
+            } 
+            .otherchilds {
+                border: 2px solid red;
+                position: relative;
+                top: 60px;
+            }
+
+            .row {
+
+            }
+
+            .row1 {
+                
+                width: 90%;
+                background-color: aquamarine;
+                height: 400px;
+                margin: 0 auto;
+            }
+
+            .row2 {
+                width: 50%;
+                background-color: rgb(253, 211, 255);
+                height: 200px;
+                
+                position: relative;
+                top: -100px;
+                left: 25%;
+
+                /* position: fixed;
+                right: 0px; */
+
+                /* position: sticky;
+                top: 20px; */
+            }
+
+            .row3 {
+                width: 90%;
+                background-color: aquamarine;
+                height: 400px;
+                margin: 0 auto;
+            }
+            .row4 {
+                width: 90%;
+                background-color: aquamarine;
+                height: 400px;
+                margin: 0 auto;
+            }
+            .row5 {
+                width: 90%;
+                background-color: aquamarine;
+                height: 400px;
+                margin: 0 auto;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="nav">
+                navigation bar
+            </div>
+
+            <div class="otherchilds">
+
+                <div class="row row1">This first row</div>
+            <div class="row row2">
+                <h1>YASH</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos rerum id illo dolorum quibusdam quia repudiandae asperiores, maxime in doloribus sint voluptas laborum natus, blanditiis explicabo eaque ipsum placeat?</p>
+            </div>
+            <div class="row row3">
+                <h1>DINANATH</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos rerum id illo dolorum quibusdam quia repudiandae asperiores, maxime in doloribus sint voluptas laborum natus, blanditiis explicabo eaque ipsum placeat?</p>
+            </div>
+
+            <div class="row row4">
+                <h1>HTML</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos rerum id illo dolorum quibusdam quia repudiandae asperiores, maxime in doloribus sint voluptas laborum natus, blanditiis explicabo eaque ipsum placeat?</p>
+            </div>
+
+            <div class="row row5">
+                <h1>CSS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eos rerum id illo dolorum quibusdam quia repudiandae asperiores, maxime in doloribus sint voluptas laborum natus, blanditiis explicabo eaque ipsum placeat?</p>
+            </div>
+
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
